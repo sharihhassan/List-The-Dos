@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List The Dos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>List The Dos</h1>
+        </div>
+        <div class="card-body">
+            <form id="todoForm">
+                <label for="txtBox" class="sr-only">Enter your task</label>
+                <input placeholder="Enter Your Task Here..." type="text" name="txtBox" id="txtBox">
+                <div>
+                    <button id="btnAddToList" type="submit" aria-label="Add task to list">Add To List</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="listContainer">
+        <ul id="todoList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
